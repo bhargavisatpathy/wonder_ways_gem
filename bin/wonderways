@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'wonder_ways'
+
+ww = WonderWays.new 'http://localhost:3000'
+puts ww.list_trails 1

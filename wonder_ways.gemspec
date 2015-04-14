@@ -5,7 +5,7 @@ require 'wonder_ways/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "wonder_ways"
-  spec.version       = WonderWays::VERSION
+  spec.version       = Wonderways::VERSION
   spec.authors       = ["Bhargavi Satpathy"]
   spec.email         = ["bhargavisatpathy@gmail.com"]
   spec.summary       = %q{This is a gem to consume Wonder-Ways api}
