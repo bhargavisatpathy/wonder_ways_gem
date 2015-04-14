@@ -1,6 +1,6 @@
 # WonderWays
 
-TODO: Write a gem description
+This is a gem to consume WonderWays api
 
 ## Installation
 
@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+ww = WonderWays.new 'http://localhost:3000'
+ww.list_trails 1 # => list of Trail objects
+```
 
 ## Contributing
 
