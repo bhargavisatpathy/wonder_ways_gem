@@ -15,5 +15,9 @@ class WonderWays
     JSON.parse(connection.get('trails', params).body)['trails'].map { |data| Trail.new(data) }
   end
 
-  
+  def find_trail(id = 1)
+    params = { id: id }
+    data = JSON.parse(connection.get("trails/#{id}", params).body)['trail']
+    Trail.new(data)
+  end
 end

@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/trails/1?id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      x-frame-options:
+      - SAMEORIGIN
+      x-xss-protection:
+      - 1; mode=block
+      x-content-type-options:
+      - nosniff
+      content-type:
+      - application/json; charset=utf-8
+      etag:
+      - W/"e9b107642fe8cde472e3cba89c565e9e"
+      cache-control:
+      - max-age=0, private, must-revalidate
+      x-request-id:
+      - 035f3b86-fa90-41ba-bae9-ed876b8abaf3
+      x-runtime:
+      - '0.029802'
+      server:
+      - WEBrick/1.3.1 (Ruby/2.1.3/2014-09-19)
+      date:
+      - Tue, 14 Apr 2015 18:40:00 GMT
+      content-length:
+      - '9956'
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"trail":{"id":1,"name":"Indian Falls Trail (Alabama)","city":"Fort
+        Payne","state":"Alabama","country":"United States","lat":"0.0","lng":"0.0","description":null,"directions":"DE
+        SOTO STATE PARK\u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;13883 County. Road.
+        89\u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;Fort Payne, Alabama   35967
+        \u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;\u0026lt;br
+        /\u0026gt;Phone: 256-845-0051\u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;Toll
+        Free: 800-252-7275\u0026lt;br /\u0026gt;\u0026lt;br /\u0026gt;Reservations:
+        256-845-5380","activities":[{"id":1,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3\u0026i=2843","activity_description":null,"length":1}],"species":[{"id":1,"kingdom":"Animalia","scientific_name":"Pica
+        pica","common_name":null,"photo_url":"http://160.111.248.28/content/2015/03/16/06/61967_orig.jpg","clip_url":"http://www.xeno-canto.org/234390/download","lat":"0.0","lng":"0.0"},{"id":2,"kingdom":"Animalia","scientific_name":"Parus
+        caeruleus","common_name":null,"photo_url":"http://160.111.248.28/content/2014/12/28/22/94944_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":3,"kingdom":"Animalia","scientific_name":"Dendrocopos
+        major","common_name":null,"photo_url":"http://160.111.248.28/content/2015/02/03/05/89677_orig.jpg","clip_url":"http://www.xeno-canto.org/235422/download","lat":"0.0","lng":"0.0"},{"id":4,"kingdom":"Animalia","scientific_name":"Trachinotus
+        goreensis","common_name":null,"photo_url":"http://160.111.248.28/content/2009/05/19/12/29351_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":5,"kingdom":"Animalia","scientific_name":"Emberiza
+        citrinella","common_name":null,"photo_url":"http://160.111.248.28/content/2015/01/19/18/45480_orig.jpg","clip_url":"http://www.xeno-canto.org/233595/download","lat":"0.0","lng":"0.0"},{"id":6,"kingdom":"Animalia","scientific_name":"Caranx
+        fischeri","common_name":null,"photo_url":"http://160.111.248.28/content/2009/05/19/12/44569_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":7,"kingdom":"Animalia","scientific_name":"Parus
+        montanus","common_name":null,"photo_url":"http://160.111.248.28/content/2009/07/24/13/51126_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":8,"kingdom":"Animalia","scientific_name":"Carduelis
+        chloris","common_name":null,"photo_url":"http://160.111.248.28/content/2013/08/29/19/70626_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":9,"kingdom":"Animalia","scientific_name":"Lyrurus
+        tetrix","common_name":null,"photo_url":"http://160.111.248.28/content/2013/03/25/23/10030_orig.jpg","clip_url":"http://www.xeno-canto.org/234679/download","lat":"0.0","lng":"0.0"},{"id":10,"kingdom":"Animalia","scientific_name":"Carduelis
+        flammea","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/13/02/93200_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":11,"kingdom":"Animalia","scientific_name":"Parus
+        major","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/13/05/44057_orig.jpg","clip_url":"http://www.xeno-canto.org/235161/download","lat":"0.0","lng":"0.0"},{"id":12,"kingdom":"Animalia","scientific_name":"Garrulus
+        glandarius","common_name":null,"photo_url":"http://160.111.248.28/content/2013/11/18/23/76432_orig.jpg","clip_url":"http://www.xeno-canto.org/235438/download","lat":"0.0","lng":"0.0"},{"id":13,"kingdom":"Animalia","scientific_name":"Pyrrhula
+        pyrrhula","common_name":null,"photo_url":"http://160.111.248.28/content/2012/07/11/01/10495_orig.jpg","clip_url":"http://www.xeno-canto.org/234068/download","lat":"0.0","lng":"0.0"},{"id":14,"kingdom":"Animalia","scientific_name":"Oxyura
+        jamaicensis","common_name":null,"photo_url":"http://160.111.248.28/content/2013/07/02/06/36308_orig.jpg","clip_url":"http://www.xeno-canto.org/215359/download","lat":"0.0","lng":"0.0"},{"id":15,"kingdom":"Animalia","scientific_name":"Porzana
+        carolina","common_name":null,"photo_url":"http://160.111.248.28/content/2013/02/01/16/10323_orig.jpg","clip_url":"http://www.xeno-canto.org/233160/download","lat":"0.0","lng":"0.0"},{"id":16,"kingdom":"Animalia","scientific_name":"Catharus
+        guttatus","common_name":null,"photo_url":"http://160.111.248.28/content/2013/11/30/21/07051_orig.jpg","clip_url":"http://www.xeno-canto.org/211426/download","lat":"0.0","lng":"0.0"},{"id":17,"kingdom":"Animalia","scientific_name":"Accipiter
+        striatus","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/15/22/45573_orig.jpg","clip_url":"http://www.xeno-canto.org/234985/download","lat":"0.0","lng":"0.0"},{"id":18,"kingdom":"Animalia","scientific_name":"Buteo
+        regalis","common_name":null,"photo_url":"http://160.111.248.28/content/2014/07/13/01/00271_orig.jpg","clip_url":"http://www.xeno-canto.org/77780/download","lat":"0.0","lng":"0.0"},{"id":19,"kingdom":"Animalia","scientific_name":"Megaceryle
+        alcyon","common_name":null,"photo_url":"http://160.111.248.28/content/2014/03/13/18/63829_orig.jpg","clip_url":"http://www.xeno-canto.org/210697/download","lat":"0.0","lng":"0.0"},{"id":20,"kingdom":"Animalia","scientific_name":"Bombycilla
+        cedrorum","common_name":null,"photo_url":"http://160.111.248.28/content/2015/03/05/06/04615_orig.jpg","clip_url":"http://www.xeno-canto.org/200073/download","lat":"0.0","lng":"0.0"},{"id":1962,"kingdom":"Animalia","scientific_name":"Pica
+        pica","common_name":null,"photo_url":"http://160.111.248.28/content/2015/03/16/06/61967_orig.jpg","clip_url":"http://www.xeno-canto.org/234390/download","lat":"0.0","lng":"0.0"},{"id":1963,"kingdom":"Animalia","scientific_name":"Parus
+        caeruleus","common_name":null,"photo_url":"http://160.111.248.28/content/2014/12/28/22/94944_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1964,"kingdom":"Animalia","scientific_name":"Dendrocopos
+        major","common_name":null,"photo_url":"http://160.111.248.28/content/2015/02/03/05/89677_orig.jpg","clip_url":"http://www.xeno-canto.org/235422/download","lat":"0.0","lng":"0.0"},{"id":1965,"kingdom":"Animalia","scientific_name":"Trachinotus
+        goreensis","common_name":null,"photo_url":"http://160.111.248.28/content/2009/05/19/12/29351_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1966,"kingdom":"Animalia","scientific_name":"Emberiza
+        citrinella","common_name":null,"photo_url":"http://160.111.248.28/content/2015/01/19/18/45480_orig.jpg","clip_url":"http://www.xeno-canto.org/233595/download","lat":"0.0","lng":"0.0"},{"id":1967,"kingdom":"Animalia","scientific_name":"Caranx
+        fischeri","common_name":null,"photo_url":"http://160.111.248.28/content/2009/05/19/12/44569_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1968,"kingdom":"Animalia","scientific_name":"Parus
+        montanus","common_name":null,"photo_url":"http://160.111.248.28/content/2009/07/24/13/51126_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1969,"kingdom":"Animalia","scientific_name":"Carduelis
+        chloris","common_name":null,"photo_url":"http://160.111.248.28/content/2013/08/29/19/70626_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1970,"kingdom":"Animalia","scientific_name":"Lyrurus
+        tetrix","common_name":null,"photo_url":"http://160.111.248.28/content/2013/03/25/23/10030_orig.jpg","clip_url":"http://www.xeno-canto.org/234679/download","lat":"0.0","lng":"0.0"},{"id":1971,"kingdom":"Animalia","scientific_name":"Carduelis
+        flammea","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/13/02/93200_orig.jpg","clip_url":"not
+        found","lat":"0.0","lng":"0.0"},{"id":1972,"kingdom":"Animalia","scientific_name":"Parus
+        major","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/13/05/44057_orig.jpg","clip_url":"http://www.xeno-canto.org/235161/download","lat":"0.0","lng":"0.0"},{"id":1973,"kingdom":"Animalia","scientific_name":"Garrulus
+        glandarius","common_name":null,"photo_url":"http://160.111.248.28/content/2013/11/18/23/76432_orig.jpg","clip_url":"http://www.xeno-canto.org/235438/download","lat":"0.0","lng":"0.0"},{"id":1974,"kingdom":"Animalia","scientific_name":"Pyrrhula
+        pyrrhula","common_name":null,"photo_url":"http://160.111.248.28/content/2012/07/11/01/10495_orig.jpg","clip_url":"http://www.xeno-canto.org/234068/download","lat":"0.0","lng":"0.0"},{"id":1975,"kingdom":"Animalia","scientific_name":"Oxyura
+        jamaicensis","common_name":null,"photo_url":"http://160.111.248.28/content/2013/07/02/06/36308_orig.jpg","clip_url":"http://www.xeno-canto.org/215359/download","lat":"0.0","lng":"0.0"},{"id":1976,"kingdom":"Animalia","scientific_name":"Porzana
+        carolina","common_name":null,"photo_url":"http://160.111.248.28/content/2013/02/01/16/10323_orig.jpg","clip_url":"http://www.xeno-canto.org/233160/download","lat":"0.0","lng":"0.0"},{"id":1977,"kingdom":"Animalia","scientific_name":"Catharus
+        guttatus","common_name":null,"photo_url":"http://160.111.248.28/content/2013/11/30/21/07051_orig.jpg","clip_url":"http://www.xeno-canto.org/211426/download","lat":"0.0","lng":"0.0"},{"id":1978,"kingdom":"Animalia","scientific_name":"Accipiter
+        striatus","common_name":null,"photo_url":"http://160.111.248.28/content/2012/06/15/22/45573_orig.jpg","clip_url":"http://www.xeno-canto.org/234985/download","lat":"0.0","lng":"0.0"},{"id":1979,"kingdom":"Animalia","scientific_name":"Buteo
+        regalis","common_name":null,"photo_url":"http://160.111.248.28/content/2014/07/13/01/00271_orig.jpg","clip_url":"http://www.xeno-canto.org/77780/download","lat":"0.0","lng":"0.0"},{"id":1980,"kingdom":"Animalia","scientific_name":"Megaceryle
+        alcyon","common_name":null,"photo_url":"http://160.111.248.28/content/2014/03/13/18/63829_orig.jpg","clip_url":"http://www.xeno-canto.org/210697/download","lat":"0.0","lng":"0.0"},{"id":1981,"kingdom":"Animalia","scientific_name":"Bombycilla
+        cedrorum","common_name":null,"photo_url":"http://160.111.248.28/content/2015/03/05/06/04615_orig.jpg","clip_url":"http://www.xeno-canto.org/200073/download","lat":"0.0","lng":"0.0"}]}}'
+    http_version: 
+  recorded_at: Tue, 14 Apr 2015 18:40:00 GMT
+recorded_with: VCR 2.9.3
