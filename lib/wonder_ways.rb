@@ -12,7 +12,8 @@ class WonderWays
 
   def list_trails(page = 1)
     params = { page: page }
-    JSON.parse(connection.get('trails', params).body)['trails'].map { |data| Trail.new(data) }
+    JSON.parse(connection.get('trails', params).body)['trails']
+                         .map { |data| Trail.new(data) }
   end
 
   def find_trail(id = 1)
@@ -21,8 +22,15 @@ class WonderWays
     Trail.new(data)
   end
 
-  # def search_trails_by_state(state = "CO")
-  #   params = { state: state }
-  #   JSON.parse(connection.get("search?state=#{state}", params).body)['trails'].map { |data| Trail.new(data) }
-  # end
+  def search_trails_by_state(state = "CO")
+    params = { state: state }
+    JSON.parse(connection.get("search?state=#{state}", params).body)['trails']
+                         .map { |data| Trail.new(data) }
+  end
+
+  def search_trails_by_location(lat = 38.3, lng = -106.6)
+    params = { lat: lat, lng: lng }
+    JSON.parse(connection.get("search?lat=#{lat}&lng=#{lng}", params).body)['trails']
+                         .map { |data| Trail.new(data) }
+  end
 end
