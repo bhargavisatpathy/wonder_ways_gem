@@ -28,4 +28,15 @@ class WonderWaysTest < Minitest::Unit::TestCase
       assert trail.state
     end
   end
+
+  # def test_it_can_search_trails_by_state
+  #   VCR.use_cassette("list_trails_by_state") do
+  #     trails = wonder_ways.search_trails_by_state("CO")
+  #     assert trails
+  #     first_trail = trails.first
+  #     assert first_trail.name
+  #     assert first_trail.city
+  #     # assert_equal "CO" first_trail.state
+  #   end
+  # end
 end

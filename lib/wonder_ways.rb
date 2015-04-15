@@ -20,4 +20,9 @@ class WonderWays
     data = JSON.parse(connection.get("trails/#{id}", params).body)['trail']
     Trail.new(data)
   end
+
+  # def search_trails_by_state(state = "CO")
+  #   params = { state: state }
+  #   JSON.parse(connection.get("search?state=#{state}", params).body)['trails'].map { |data| Trail.new(data) }
+  # end
 end
