@@ -1,6 +1,6 @@
 # WonderWays
 
-This is a gem to consume WonderWays api
+This is a gem to consume WonderWays api at https://github.com/bhargavisatpathy/trails
 
 ## Installation
 
